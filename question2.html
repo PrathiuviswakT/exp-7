@@ -13,8 +13,10 @@
 $(document).ready(function(){
 
      $('#reset').click(function(){
-        car1.animate({left:'0%'});
-        car2.animate({left:'0%'});
+        var car1 =$('#car1');
+        var car2 =$('#car2');
+        car1.animate({left:'0%'},1);
+        car2.animate({left:'0%'},1);
     })//
 
    // $('#race').click(function(){
